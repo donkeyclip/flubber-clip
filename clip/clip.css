@@ -1,0 +1,14 @@
+* {
+  --color: {{ initParams.color }};
+}
+
+.container {
+  width:780px;
+  height:420px;
+  position:relative;
+}
+.container1{
+  width:780px;
+  height:420px;
+  position:absolute;
+}
