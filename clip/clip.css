@@ -3,12 +3,54 @@
 }
 
 .container {
-  width:780px;
-  height:420px;
+  width:720px;
+  height:480px;
   position:relative;
+  --background-color: {{initParams.color}};
+}
+.img-container{
+  width:720px;
+  height:480px;
+  position:absolute;
+  opacity:0;
+}
+.half-img-container{
+  width: 360px;
+  height:480px;
+  position:absolute;
 }
 .container1{
-  width:780px;
-  height:420px;
+  background:url("assets/24-840.jpeg");
+}
+.container2{
+  background:url("assets/10-720.jpg");
+}
+.container3{
+  background:url("assets/8-840.jpeg");
+}
+.container4{
+ background:url("assets/12-720.jpg");
+}
+.container5{
+  background:url("assets/5-840.jpeg");
+}
+.container6{
+  background:url("assets/13-840.jpeg");
+}
+.container7{
+  background:url("assets/34-840.jpeg");
+}
+.container8{
+  background:url("assets/61-840.jpeg");
+}
+.container9{
+  background:url("assets/115-720.jpg");
+}
+.svg-wrapper{
   position:absolute;
+
+}
+#flubber{
+  stroke :rgb(73, 69, 69);
+  opacity:0;
 }
