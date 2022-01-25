@@ -118,7 +118,7 @@ export const container4appear = (selector, duration, easing = "linear") =>
       easing,
     }
   );
-export const flubber1 = (selector, duration, easing = "linear") =>
+export const flubber2 = (selector, duration, easing = "linear") =>
   new FlubberPlugin.Flubber(
     {
       animatedAttrs: {
@@ -223,3 +223,104 @@ export const flubber5 = (selector, duration, easing = "easeInOutSine") =>
       easing
     }
   );
+  export const containerAboutUsaAppear = (selector, duration, easing = "easeInOutSine") =>
+  new CSSEffect(
+    {
+      animatedAttrs: {
+        clipPath: "polygon(0 100%, 100% 100%, 100% 0, 0 0)"
+      },
+    },
+    {
+      selector,
+      duration,
+      easing
+    }
+  );
+  export const subscribeButton = (selector, duration, easing = "easeInOutSine") =>
+  new CSSEffect(
+    {
+      animatedAttrs: {
+        width:"230px",
+        height:"20px",
+        padding:"10px",
+        fontSize:"16px"
+      },
+    },
+    {
+      selector,
+      duration,
+      easing
+    }
+  );
+  export const text1appear = (selector, duration, easing = "easeInOutSine") =>
+  new CSSEffect(
+    {
+      animatedAttrs: {
+        opacity:1,
+        fontWeight:"bold",
+        fontSize:"25px"
+      },
+    },
+    {
+      selector,
+      duration,
+      easing
+    }
+  );
+  export const text1remove = (selector, duration, easing = "easeInOutSine") =>
+  new CSSEffect(
+    {
+      animatedAttrs: {
+        opacity:0
+      },
+    },
+    {
+      selector,
+      duration,
+      easing
+    }
+  );
+  export const text2appear = (selector, duration, easing = "easeInOutSine") =>
+  new CSSEffect(
+    {
+      animatedAttrs: {
+        opacity:1,
+        fontWeight:"bold",
+        fontSize:"25px"
+      },
+    },
+    {
+      selector,
+      duration,
+      easing
+    }
+  );
+  export const text2remove = (selector, duration, easing = "easeInOutSine") =>
+  new CSSEffect(
+    {
+      animatedAttrs: {
+        opacity:0
+      },
+    },
+    {
+      selector,
+      duration,
+      easing
+    }
+  );
+  export const socialMediaAppear = (selector, duration,delay="@stagger(0,1200)", easing = "easeInOutSine") =>
+  new CSSEffect(
+    {
+      animatedAttrs: {
+        width:"25px",
+        height:"25px"
+      },
+    },
+    {
+      selector,
+      duration,
+      delay,
+      easing
+    }
+  );
+  
