@@ -53,7 +53,7 @@
 #flubber{
   stroke :black;
   opacity:0;
-  stroke-width: 3px;
+  stroke-width: 2px;
 }
 .aboutUs{
   background: linear-gradient(#ffffff,#a69fa7 ,#525255);;
@@ -75,14 +75,15 @@
   transform: translate(-50%,-60%);
   font-size: 20px;
   opacity:0;
+  color: #201B59;
+  font-family: 'Noto Sans', sans-serif;
 }
 .aboutUs #subscribe{
   position: absolute;
   left:50%;
   top:45%;
   transform: translate(-50%,-55%);
-  background-color: #1fd1f9;
-  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);  
+  background-color: #201B59;
   border-radius:9999px;
   color:white;
   text-decoration: none;
@@ -90,6 +91,7 @@
   height:0px;
   font-size: 0px;
   text-align: center;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
 }
 .social-media{
@@ -102,7 +104,8 @@
   height: 100px;
   gap:12px;
 }
-.sm img{
+.sm svg{
   width:0px;
   height:0px;
+  fill:#201B59;
 }

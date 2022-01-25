@@ -13,6 +13,12 @@ export const clip = new HTMLClip({
     width: "720px",
     height: "480px",
   },
+  fonts: [
+    {
+      type: "google-font",
+      src: "https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap",
+    },
+  ],
 });
 
 clip.addIncident(container1appear(".container1,#flubber",1000), 0);
@@ -38,7 +44,7 @@ clip.addIncident(text1remove(".aboutUs #text1",500),16500);
 clip.addIncident(text2appear(".aboutUs #text2",500),17000);
 clip.addIncident(text2remove(".aboutUs #text2",500),18000);
 clip.addIncident(subscribeButton(".aboutUs #subscribe",500),18500);
-clip.addIncident(socialMediaAppear(".sm img",200),19000);
+clip.addIncident(socialMediaAppear(".sm svg",200),19000);
 
 
 
