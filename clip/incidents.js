@@ -242,8 +242,9 @@ export const flubber5 = (selector, duration, easing = "easeInOutSine") =>
       animatedAttrs: {
         width:"230px",
         height:"20px",
-        padding:"10px",
-        fontSize:"16px"
+        fontSize:"16px",
+        paddingTop: "10px",
+        paddingBottom:"14px"
       },
     },
     {
