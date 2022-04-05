@@ -12,15 +12,15 @@ export const initParams = [
     name: "Default",
     value: {
       color: "white",
-      img1:"https://github.com/ElisavetAmpatzidou/flubber-clip/blob/main/demo/assets/24-840.jpeg?raw=true",
-      img2:"https://github.com/ElisavetAmpatzidou/flubber-clip/blob/main/demo/assets/10-720.jpg?raw=true",
-      img3:"https://github.com/ElisavetAmpatzidou/flubber-clip/blob/main/demo/assets/8-840.jpeg?raw=true",
-      img4:"https://github.com/ElisavetAmpatzidou/flubber-clip/blob/main/demo/assets/12-720.jpg?raw=true",
-      img5:"https://github.com/ElisavetAmpatzidou/flubber-clip/blob/main/demo/assets/5-840.jpeg?raw=true",
-      img6:"https://github.com/ElisavetAmpatzidou/flubber-clip/blob/main/demo/assets/13-840.jpeg?raw=true",
-      img7:"https://github.com/ElisavetAmpatzidou/flubber-clip/blob/main/demo/assets/34-840.jpeg?raw=true",
-      img8:"https://github.com/ElisavetAmpatzidou/flubber-clip/blob/main/demo/assets/61-840.jpeg?raw=true",
-      img9:"https://github.com/ElisavetAmpatzidou/flubber-clip/blob/main/demo/assets/115-720.jpg?raw=true"
+      img1:"https://donkeyclip.github.io/flubber-clip/demo/assets/24-840.jpeg",
+      img2:"https://donkeyclip.github.io/flubber-clip/demo/assets/10-720.jpg",
+      img3:"https://donkeyclip.github.io/flubber-clip/demo/assets/8-840.jpeg",
+      img4:"https://donkeyclip.github.io/flubber-clip/demo/assets/12-720.jpg",
+      img5:"https://donkeyclip.github.io/flubber-clip/demo/assets/5-840.jpeg",
+      img6:"https://donkeyclip.github.io/flubber-clip/demo/assets/13-840.jpeg",
+      img7:"https://donkeyclip.github.io/flubber-clip/demo/assets/34-840.jpeg",
+      img8:"https://donkeyclip.github.io/flubber-clip/demo/assets/61-840.jpeg",
+      img9:"https://donkeyclip.github.io/flubber-clip/demo/assets/115-720.jpg"
     },
   },
 ];
