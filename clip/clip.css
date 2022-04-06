@@ -61,28 +61,28 @@
   height:480px;
   clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
   position:absolute;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.aboutUs #logo{
+/* .aboutUs #logo{
   position: absolute;
   left:50%;
   top:30%;
   transform: translate(-50%,-70%);
-}
+} */
 .aboutUs p{
   position: absolute;
   left:50%;
-  top:40%;
-  transform: translate(-50%,-60%);
+  top:45%;
+  transform: translate(-50%,-50%);
   font-size: 20px;
   opacity:0;
   color: #201B59;
   font-family: 'Noto Sans', sans-serif;
 }
 .aboutUs #subscribe{
-  position: absolute;
-  left:50%;
-  top:45%;
-  transform: translate(-50%,-55%);
   background-color: #201B59;
   border-radius:9999px;
   color:white;
@@ -90,9 +90,15 @@
   width:0px;
   height: 0px;
   font-size: 0px;
-  text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 40px;
+  font-size: 16px;
+  transform: scale(0);
 }
 .social-media{
   position: absolute;
