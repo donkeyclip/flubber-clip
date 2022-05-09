@@ -27,7 +27,9 @@ import {
   container8appear,
   container9appear,
 } from "./incidents";
-import { initParamsValidationRules, initParams } from "./initParams";
+import {initParams } from "./initParams";
+import initParamsValidationRules
+ from "./initParamsValidationRules";
 export const clip = new HTMLClip({
   html,
   css,
