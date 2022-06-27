@@ -10,8 +10,8 @@ export default {
       type: "string",
       optional: false,
     },
-    SVG2:{
-      label:"SVG 2",
+    SVG1:{
+      label:"SVG 1",
       type: "string",
       optional: false,
     },
